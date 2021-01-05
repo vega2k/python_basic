@@ -4,3 +4,5 @@ for i in range(10):
     except ZeroDivisionError as err:
         print(err)
         print("Not divided by 0")
+    finally:
+        print('END~~')
