@@ -9,7 +9,9 @@ raw_data = {'officer_name': ['Jason', 'Molly', 'Tina', 'Jake', 'Amy'],
 
 df = pd.DataFrame(raw_data, columns = ['officer_name', 'jan_arrests', 'feb_arrests', 'march_arrests'])
 df['total_arrests'] = df['jan_arrests'] + df['feb_arrests'] + df['march_arrests']
-print(df['total_arrests'])
+#print(df['total_arrests'])
+print(df)
+
 # Create a list of colors (from iWantHue)
 colors = ["#E13F29", "#D69A80", "#D63B59", "#AE5552", "#CB5C3B", "#EB8076", "#96624E"]
 
